@@ -1,3 +1,6 @@
 class School
   @school = School.new("Bayside High School")
-end  
+end 
+
+def roster
+  @school = School.roster()
