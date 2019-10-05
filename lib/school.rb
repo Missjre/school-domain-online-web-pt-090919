@@ -3,4 +3,4 @@ class School
 end 
 
 def roster
-  @school = School.roster()
+ 
