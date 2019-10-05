@@ -3,8 +3,12 @@ class School
 end 
 
 def roster
- School.add_student("AC Slater", 9)
- School.add_student("Kelly Kapowski", 10)
- School.add_student("Screech", 11)
- School.roster
+ @school = School.add_student("AC Slater", 9)
+ 
+ @school = School.add_student("Kelly Kapowski", 10)
+ 
+ @school = School.add_student("Screech", 11)
+ 
+ @school = School.roster
+
 end
