@@ -7,3 +7,4 @@ def roster
  School.add_student("Kelly Kapowski", 10)
  School.add_student("Screech", 11)
  School.roster
+ e
